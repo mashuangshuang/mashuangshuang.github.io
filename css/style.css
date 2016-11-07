@@ -1075,21 +1075,105 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  background: #262a30;
-  padding: 50px 0;
+  background: #353c5d;
+  padding: 15px 0;
+  padding-bottom: 0;
   border-top: 1px solid #ddd;
   color: #999;
 }
 #footer a {
-  color: #258fb8;
   text-decoration: none;
 }
 #footer a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 #footer-info {
   line-height: 1.6em;
   font-size: 0.85em;
+}
+.fl {
+  float: left;
+}
+.footerTop {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.footerTop:before,
+.footerTop:after {
+  content: "";
+  display: table;
+}
+.footerTop:after {
+  clear: both;
+}
+.logo h5 {
+  font-size: 18px;
+}
+.market {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.market .business {
+  margin-right: 50px;
+}
+.footerTitle {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.footer-line {
+  height: 1px;
+  border-bottom: 1px solid #272e4f;
+  background-color: #414867;
+}
+.contact {
+  width: 33%;
+}
+.contact .footerNav li {
+  float: left;
+  margin-right: 5px;
+}
+.contact .footerNav li a {
+  display: block;
+  color: #a6acc4;
+}
+.contact .footerNav li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.contact .footerNav li a i {
+  margin: 0px 10px;
+}
+.blogroll {
+  width: 33%;
+}
+.blogroll li {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: m5px;
+}
+.blogroll li a {
+  display: block;
+  color: #a6acc4;
+}
+.blogroll li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.focus {
+  width: 33%;
+}
+.focus li {
+  float: left;
+  margin-right: 5px;
+}
+.focus li a {
+  display: block;
+  color: #a6acc4;
+}
+.footerBottom {
+  padding: 10px 0;
 }
 .article-entry pre,
 .article-entry .highlight {
