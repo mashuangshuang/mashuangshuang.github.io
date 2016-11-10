@@ -187,10 +187,18 @@ body {
     margin: 0 0.833333333333333%;
   }
 }
+.widget-title {
+  line-height: 48px;
+  font-size: 16px;
+  font-size: 0.16rem;
+  margin: 0;
+  color: #333;
+  font-weight: 500;
+  border-bottom: 1px solid #efefef;
+}
 .article-date,
 .article-category-link,
-.archive-year,
-.widget-title {
+.archive-year {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1431,12 +1439,10 @@ pre .javascript .function {
 .widget {
   color: #777;
   text-shadow: 0 1px #fff;
-  background: #ddd;
   -webkit-box-shadow: 0 -1px 4px #ccc inset;
   box-shadow: 0 -1px 4px #ccc inset;
   border: 1px solid #ccc;
   padding: 15px;
-  border-radius: 3px;
 }
 .widget a {
   color: #258fb8;
