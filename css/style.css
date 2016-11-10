@@ -190,7 +190,7 @@ body {
 .widget-title {
   line-height: 48px;
   font-size: 16px;
-  font-size: 0.16rem;
+  padding: 0px 15px;
   margin: 0;
   color: #333;
   font-weight: 500;
@@ -1435,21 +1435,19 @@ pre .javascript .function {
 }
 .widget-wrap {
   margin: 50px 0;
+  background: #fff;
 }
 .widget {
   color: #777;
-  text-shadow: 0 1px #fff;
-  -webkit-box-shadow: 0 -1px 4px #ccc inset;
-  box-shadow: 0 -1px 4px #ccc inset;
-  border: 1px solid #ccc;
   padding: 15px;
 }
 .widget a {
-  color: #258fb8;
   text-decoration: none;
+  color: #333;
 }
 .widget a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #258fb8;
 }
 .widget ul ul,
 .widget ol ul,
