@@ -1502,12 +1502,17 @@ pre .javascript .function {
 .widget-member ul .info .name {
   margin-bottom: 5px;
   display: inline-block;
+  color: #2e2e31;
 }
 .widget-member ul .info .job {
   margin-bottom: 5px;
+  color: #797a7f;
 }
 .widget-member ul .info .intro {
   font-size: 12px;
+  color: #797a7f;
+}
+.widget-member ul:hover a {
   color: #333;
 }
 .follower {
