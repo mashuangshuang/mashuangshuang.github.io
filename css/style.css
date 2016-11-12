@@ -1485,17 +1485,23 @@ pre .javascript .function {
 }
 .widget-member ul li {
   margin-bottom: 10px;
+  overflow: hidden;
 }
 .widget-member ul .avatar {
   width: 45px;
   height: 45px;
   overflow: hidden;
+  float: left;
 }
 .widget-member ul .avatar img {
   width: 100%;
 }
+.widget-member ul .info {
+  margin-left: 55px;
+}
 .widget-member ul .info .name {
   margin-bottom: 5px;
+  display: inline-block;
 }
 .widget-member ul .info .job {
   margin-bottom: 5px;
