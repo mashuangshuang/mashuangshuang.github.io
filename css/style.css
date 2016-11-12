@@ -338,7 +338,7 @@ body {
   position: relative;
   overflow: hidden;
   margin-top: 5px;
-  width: 1099px;
+  width: 80%;
 }
 #header-inner li {
   float: left;
@@ -389,6 +389,20 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   overflow: hidden;
+}
+#banner .bannerTxt {
+  width: 1220px;
+  margin: 0 atuo;
+  color: #fff;
+}
+..bannerTxt .title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+..bannerTxt .des {
+  font-size: 15px;
+  line-height: 26px;
+  color: #fff;
 }
 #header-title {
   text-align: center;
@@ -1462,7 +1476,7 @@ pre .javascript .function {
   list-style: disc;
 }
 .follower .wxCode {
-  background: url("image/wx_code.jpg") center #000;
+  background: url("../image/wx_code.jpg") center #000;
 }
 .widget {
   line-height: 1.6em;
