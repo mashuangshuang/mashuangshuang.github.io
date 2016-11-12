@@ -1461,6 +1461,9 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+.follower .wxCode {
+  background: url("image/wx_code.jpg") center #000;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
