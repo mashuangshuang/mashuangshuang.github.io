@@ -396,11 +396,11 @@ body {
   padding-top: 140px;
   color: #fff;
 }
-..bannerTxt .title {
+.bannerTxt .title {
   font-size: 36px;
   margin-bottom: 40px;
 }
-..bannerTxt .des {
+.bannerTxt .des {
   font-size: 15px;
   line-height: 26px;
   color: #fff;
@@ -1484,12 +1484,12 @@ pre .javascript .function {
 .follower .wxCode {
   width: 200px;
   height: 200px;
-  -webkit-background-size: 100;
-  -moz-background-size: 100;
-  background-size: 100;
   text-align: center;
   display: inline-block;
   background: url("../image/wx_code.jpg") center center;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  background-size: 100%;
 }
 .follower .title {
   margin-bottom: 10px;
