@@ -390,6 +390,10 @@ body {
   background-size: cover;
   overflow: hidden;
 }
+#banner .wrapperBanner {
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
 #banner .bannerTxt {
   width: 1220px;
   margin: 0 auto;
@@ -1475,6 +1479,9 @@ pre .javascript .function {
 .widget dl dl {
   margin-left: 15px;
   list-style: disc;
+}
+.widget li {
+  margin-bottom: 10px;
 }
 .follower {
   text-align: center;
