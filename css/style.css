@@ -392,7 +392,8 @@ body {
 }
 #banner .bannerTxt {
   width: 1220px;
-  margin: 0 atuo;
+  margin: 0 auto;
+  padding-top: 140px;
   color: #fff;
 }
 ..bannerTxt .title {
