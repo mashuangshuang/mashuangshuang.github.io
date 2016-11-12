@@ -1476,8 +1476,30 @@ pre .javascript .function {
   margin-left: 15px;
   list-style: disc;
 }
+.follower {
+  text-align: center;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
 .follower .wxCode {
-  background: url("../image/wx_code.jpg") center #000;
+  width: 200px;
+  height: 200px;
+  -webkit-background-size: 100;
+  -moz-background-size: 100;
+  background-size: 100;
+  text-align: center;
+  display: inline-block;
+  background: url("../image/wx_code.jpg") center center;
+}
+.follower .title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.follower .link {
+  float: left;
+  width: 50%;
+  display: inline-block;
 }
 .widget {
   line-height: 1.6em;
