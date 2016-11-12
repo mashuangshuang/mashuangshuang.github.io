@@ -397,7 +397,7 @@ body {
 #banner .bannerTxt {
   width: 1220px;
   margin: 0 auto;
-  padding-top: 140px;
+  padding-top: 80px;
   color: #fff;
 }
 .bannerTxt .title {
@@ -1482,6 +1482,27 @@ pre .javascript .function {
 }
 .widget li {
   margin-bottom: 10px;
+}
+.widget-member ul li {
+  margin-bottom: 10px;
+}
+.widget-member ul .avatar {
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+}
+.widget-member ul .avatar img {
+  width: 100%;
+}
+.widget-member ul .info .name {
+  margin-bottom: 5px;
+}
+.widget-member ul .info .job {
+  margin-bottom: 5px;
+}
+.widget-member ul .info .intro {
+  font-size: 12px;
+  color: #333;
 }
 .follower {
   text-align: center;
