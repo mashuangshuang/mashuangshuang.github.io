@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /fonts/
+Disallow: /fancybox/
+
+
+Sitemap: http://qinghaisite.com/sitemap.xml
+Sitemap: http://qinghaisite.com/baidusitemap.xml
