@@ -6,7 +6,7 @@
 	*display: inline;
 	*zoom:  1;
 }
-#bdshare .bdsharebuttonbox  a{
+#bdshare   a{
 	width: 24px;
 	height: 24px;
 	float: left;
