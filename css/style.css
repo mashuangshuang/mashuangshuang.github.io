@@ -1540,6 +1540,9 @@ pre .javascript .function {
   width: 50%;
   display: inline-block;
 }
+.follower .linkQq {
+  margin-left: 40px;
+}
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
