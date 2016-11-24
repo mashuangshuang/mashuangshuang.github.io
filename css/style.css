@@ -502,6 +502,9 @@ body {
 #mobile-nav {
   display: none;
 }
+.wrapper-nav {
+  height: 0px;
+}
 .article {
   margin: 50px 0;
 }
@@ -1557,7 +1560,6 @@ pre .javascript .function {
 }
 @media screen and (max-width: 479px) {
   .wrapper-nav {
-    height: 0px;
     position: absolute;
     width: 100%;
     left: 0px;
