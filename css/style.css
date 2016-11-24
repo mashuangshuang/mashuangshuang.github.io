@@ -1558,17 +1558,23 @@ pre .javascript .function {
 }
 @media screen and (max-width: 479px) {
   .wrapper-nav {
-    display: block;
+    display: none;
+    height: 0px;
     position: absolute;
     width: 100%;
     left: 0px;
     top: 76px;
+    background: rgba(0,0,0,0.9);
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
   }
   .wrapper-nav li {
     height: 40px;
     line-height: 40px;
     width: 100%;
-    border-bottom: 1px solid #0097da;
+    border-bottom: 1px solid #555;
     text-align: center;
   }
   .wrapper-nav li a {
@@ -1576,6 +1582,10 @@ pre .javascript .function {
     width: 100%;
     text-align: center;
     text-decoration: none;
+  }
+  .active {
+    display: block;
+    height: 412px;
   }
 }
 @media screen and (max-width: 479px) {
