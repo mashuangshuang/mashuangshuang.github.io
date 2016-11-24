@@ -499,65 +499,8 @@ body {
 #nav-search-btn:before {
   content: "\f002";
 }
-#search-form-wrap {
-  position: absolute;
-  top: 15px;
-  width: 150px;
-  height: 30px;
-  right: -150px;
-  opacity: 0;
-  -webkit-transition: 0.2s ease-out;
-  -moz-transition: 0.2s ease-out;
-  -ms-transition: 0.2s ease-out;
-  transition: 0.2s ease-out;
-}
-#search-form-wrap.on {
-  opacity: 1;
-  right: 0;
-}
-@media screen and (max-width: 479px) {
-  #search-form-wrap {
-    width: 100%;
-    right: -100%;
-  }
-}
-.search-form {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: #fff;
-  padding: 5px 15px;
-  border-radius: 15px;
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-}
-.search-form-input {
-  border: none;
-  background: none;
-  color: #555;
-  width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  outline: none;
-}
-.search-form-input::-webkit-search-results-decoration,
-.search-form-input::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
-.search-form-submit {
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  margin-top: -7px;
-  font: 13px FontAwesome;
-  border: none;
-  background: none;
-  color: #bbb;
-  cursor: pointer;
-}
-.search-form-submit:hover,
-.search-form-submit:focus {
-  color: #777;
+#mobile-nav {
+  display: none;
 }
 .article {
   margin: 50px 0;
@@ -1430,8 +1373,8 @@ pre .javascript .function {
   #mobile-nav {
     display: block;
     position: absolute;
-    top: 25;
-    right: 20;
+    top: 25px;
+    right: 20px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1448,19 +1391,19 @@ pre .javascript .function {
 }
 @media screen and (max-width: 479px) {
   #banner {
-    height: 270;
+    height: 270px;
   }
   #banner .bannerTxt .title {
-    font-size: 16;
-    line-height: 30;
+    font-size: 16px;
+    line-height: 30px;
   }
   #banner .bannerTxt .des {
-    font-size: 12;
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 479px) {
   .article {
-    margin: 20 0;
+    margin: 20px 0;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1469,7 +1412,6 @@ pre .javascript .function {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0;
   }
   .footerTop .contact {
     width: 100%;
