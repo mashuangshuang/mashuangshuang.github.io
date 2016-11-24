@@ -425,7 +425,8 @@ var duoshuoQuery = {short_name:'qinghaiclub'};
 
 $(".toggle-menu").on("click", function(){
   var state = $(this).attr("data-state");  
-  if(hasClass(" fa-times")){
+  var icon = $(this).find(".fa");
+  if(icon.hasClass(" fa-times")){
     console.log("??");
   }
   if(state == 1){
