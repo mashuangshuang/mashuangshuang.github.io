@@ -1556,6 +1556,28 @@ pre .javascript .function {
   }
 }
 @media screen and (max-width: 479px) {
+  .wrapper-nav {
+    display: none;
+    position: absulute;
+    width: 100%;
+    left: 0px;
+    top: 76px;
+  }
+  .wrapper-nav li {
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #0097da;
+    text-align: center;
+  }
+  .wrapper-nav li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 479px) {
   .article {
     margin: 15px 0;
   }
