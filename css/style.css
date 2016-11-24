@@ -1422,6 +1422,11 @@ pre .javascript .function {
   color: #c9c;
 }
 @media screen and (max-width: 479px) {
+  #header-inner {
+    display: none;
+  }
+}
+@media screen and (max-width: 479px) {
   #mobile-nav {
     position: absolute;
     top: 0;
@@ -1442,6 +1447,12 @@ pre .javascript .function {
   }
   .mobile-nav-link:hover {
     color: #fff;
+  }
+}
+@media screen and (max-width: 479px) {
+  #header-inner {
+    position: absolute;
+    right: 0px;
   }
 }
 @media screen and (min-width: 768px) {
