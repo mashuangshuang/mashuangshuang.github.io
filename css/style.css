@@ -1428,13 +1428,10 @@ pre .javascript .function {
 }
 @media screen and (max-width: 479px) {
   #mobile-nav {
+    display: block;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 280px;
-    height: 100%;
-    background: #191919;
-    border-right: 1px solid #fff;
+    top: 25;
+    right: 20;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1450,9 +1447,32 @@ pre .javascript .function {
   }
 }
 @media screen and (max-width: 479px) {
-  #header-inner {
-    position: absolute;
-    right: 0px;
+  #banner {
+    height: 270;
+  }
+  #banner .bannerTxt .title {
+    font-size: 16;
+    line-height: 30;
+  }
+  #banner .bannerTxt .des {
+    font-size: 12;
+  }
+}
+@media screen and (max-width: 479px) {
+  .article {
+    margin: 20 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  .footerTop {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .footerTop .contact {
+    width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
