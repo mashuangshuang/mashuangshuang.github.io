@@ -1637,7 +1637,7 @@ pre .javascript .function {
     -ms-transition: all 0.3s linear;
     transition: all 0.3s linear;
   }
-  .toggle-menu.fa-times {
+  .toggle-menu .fa-times {
     -webkit-transform: rotate(135deg);
   }
 }
