@@ -499,8 +499,7 @@ body {
 #nav-search-btn:before {
   content: "\f002";
 }
-#mobile-nav,
-.wrapper-nav {
+#mobile-nav {
   display: none;
 }
 .article {
