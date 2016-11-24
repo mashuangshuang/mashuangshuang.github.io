@@ -1582,10 +1582,11 @@ pre .javascript .function {
     width: 100%;
     text-align: center;
     text-decoration: none;
+    color: #fff;
   }
   .active {
     display: block;
-    height: 412px;
+    height: 275px;
   }
 }
 @media screen and (max-width: 479px) {
