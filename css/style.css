@@ -1157,6 +1157,7 @@ a.article-title:hover {
 .blogroll li a {
   display: block;
   color: #a6acc4;
+  font-size: 12px;
 }
 .blogroll li a:hover {
   color: #fff;
@@ -1436,7 +1437,7 @@ pre .javascript .function {
   .copyright,
   .visits,
   .icp,
-  powered-by {
+  .powered-by {
     width: 100%;
     margin-bottom: 5px;
   }
