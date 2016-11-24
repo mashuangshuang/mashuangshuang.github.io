@@ -499,7 +499,8 @@ body {
 #nav-search-btn:before {
   content: "\f002";
 }
-#mobile-nav {
+#mobile-nav,
+.wrapper-nav {
   display: none;
 }
 .article {
@@ -1557,8 +1558,8 @@ pre .javascript .function {
 }
 @media screen and (max-width: 479px) {
   .wrapper-nav {
-    display: none;
-    position: absulute;
+    display: block;
+    position: absolute;
     width: 100%;
     left: 0px;
     top: 76px;

@@ -64,10 +64,12 @@
 
     <div id="mobile-nav" >
         <div class="wrapper-menu">
-            <a class="toggle-menu"><i class="fa fa-bars fa-2x"></i></a>
+            <a class="toggle-menu" data-state = 1><i class="fa fa-bars fa-2x"></i></a>
         </div>
-        <div class="wrapper-nav">
-          <ul>
+    </div>
+
+    <div class="wrapper-nav">
+       <ul>
             
               <li class="active">
                 <a  href="/">首页</a>
@@ -93,9 +95,9 @@
                 <a  href="/categories/club作品">club作品</a>
               </li>
             
-          </ul>
-        </div>
+       </ul>
     </div>
+
   </div>
 </header>
 <div id="banner">
@@ -349,6 +351,23 @@
     
 
 <script src="http://apps.bdimg.com/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(".toggle-menu").on("click", function(){
+  var state = $(this).attr("data-state");  
+  if(hasClass(" fa-times")){
+    console.log("??");
+  }
+  if(state == 1){
+    $(this).find("fa").removeClass("fa-bars").addClass("fa-times");
+  } 
+  else{
+    $(this).find("fa").removeClass("fa-bars").addClass("fa-times");
+  }
+})
+
+
+</script>
 
 
   <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
