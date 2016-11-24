@@ -1182,7 +1182,7 @@ a.article-title:hover {
 .copyright,
 .visits,
 .icp,
-powered-by {
+.powered-by {
   width: 25%;
   text-align: center;
   font-size: 12px;
@@ -1395,9 +1395,10 @@ pre .javascript .function {
   }
   #banner .bannerTxt {
     width: 100%;
-    -webkit-box-sizing: borde-box;
-    -moz-box-sizing: borde-box;
-    box-sizing: borde-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 10px;
   }
   #banner .bannerTxt .title {
     font-size: 16px;
@@ -1405,11 +1406,12 @@ pre .javascript .function {
   }
   #banner .bannerTxt .des {
     font-size: 12px;
+    line-height: 21px;
   }
 }
 @media screen and (max-width: 479px) {
   .article {
-    margin: 20px 0;
+    margin: 15px 0;
   }
 }
 @media screen and (max-width: 479px) {
@@ -1422,10 +1424,26 @@ pre .javascript .function {
   .footerTop .contact {
     width: 100%;
   }
+  .footerTop .blogroll {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .footerTop .focus {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .copyright,
+  .visits,
+  .icp,
+  powered-by {
+    width: 100%;
+    margin-bottom: 5px;
+  }
 }
 @media screen and (max-width: 479px) {
   .outer {
-    margin: 0px 10px;
+    padding: 0px 10px;
   }
 }
 @media screen and (min-width: 768px) {
