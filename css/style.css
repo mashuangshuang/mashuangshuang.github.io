@@ -1403,7 +1403,8 @@ pre .javascript .function {
   }
   #banner .bannerTxt .title {
     font-size: 16px;
-    line-height: 30px;
+    line-height: 21px;
+    margin: 16px 0px;
   }
   #banner .bannerTxt .des {
     font-size: 12px;
