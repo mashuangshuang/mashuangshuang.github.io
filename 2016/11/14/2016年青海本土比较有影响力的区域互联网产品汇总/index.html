@@ -426,14 +426,15 @@ var duoshuoQuery = {short_name:'qinghaiclub'};
 $(".toggle-menu").on("click", function(){
   var state = $(this).attr("data-state");  
   var icon = $(this).find(".fa");
-  if(icon.hasClass(" fa-times")){
+  console.log(icon);
+  if(icon.hasClass("fa-times")){
     console.log("??");
   }
   if(state == 1){
-    $(this).find("fa").removeClass("fa-bars").addClass("fa-times");
+    $(this).find(".fa").removeClass("fa-bars").addClass("fa-times");
   } 
   else{
-    $(this).find("fa").removeClass("fa-bars").addClass("fa-times");
+    $(this).find(".fa").removeClass("fa-bars").addClass("fa-times");
   }
 })
 
